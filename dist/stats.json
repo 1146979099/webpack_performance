@@ -1,0 +1,973 @@
+{
+  "hash": "56bac4a027e6557376c3",
+  "version": "5.96.1",
+  "time": 990,
+  "builtAt": 1732093657053,
+  "publicPath": "auto",
+  "outputPath": "/Users/cjy/Desktop/study/webpack_performance/dist",
+  "assetsByChunkName": {
+    "main": [
+      "main.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "asset",
+      "name": "main.js",
+      "size": 1197,
+      "emitted": true,
+      "comparedForEmit": false,
+      "cached": false,
+      "info": {
+        "javascriptModule": false,
+        "related": {
+          "sourceMap": "main.js.map"
+        },
+        "size": 1197
+      },
+      "chunkNames": [
+        "main"
+      ],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "filteredRelated": 0,
+      "related": [
+        {
+          "type": "sourceMap",
+          "name": "main.js.map",
+          "size": 528,
+          "emitted": true,
+          "comparedForEmit": false,
+          "cached": false,
+          "info": {
+            "development": true,
+            "size": 528
+          },
+          "chunkNames": [],
+          "chunkIdHints": [],
+          "auxiliaryChunkNames": [
+            "main"
+          ],
+          "auxiliaryChunkIdHints": [],
+          "related": [],
+          "chunks": [],
+          "auxiliaryChunks": [
+            "main"
+          ],
+          "isOverSizeLimit": false
+        }
+      ],
+      "chunks": [
+        "main"
+      ],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    },
+    {
+      "type": "asset",
+      "name": "index.html",
+      "size": 166,
+      "emitted": false,
+      "comparedForEmit": true,
+      "cached": false,
+      "info": {
+        "size": 166
+      },
+      "chunkNames": [],
+      "chunkIdHints": [],
+      "auxiliaryChunkNames": [],
+      "auxiliaryChunkIdHints": [],
+      "related": [],
+      "chunks": [],
+      "auxiliaryChunks": [],
+      "isOverSizeLimit": false
+    }
+  ],
+  "chunks": [
+    {
+      "rendered": true,
+      "initial": true,
+      "entry": true,
+      "recorded": false,
+      "size": 39,
+      "sizes": {
+        "javascript": 39
+      },
+      "names": [
+        "main"
+      ],
+      "idHints": [],
+      "runtime": [
+        "main"
+      ],
+      "files": [
+        "main.js"
+      ],
+      "auxiliaryFiles": [
+        "main.js.map"
+      ],
+      "hash": "5a373a88dc78febb85e7",
+      "childrenByOrder": {},
+      "id": "main",
+      "siblings": [],
+      "parents": [],
+      "children": [],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 39,
+          "sizes": {
+            "javascript": 39
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[0].use[0]!/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/babel-loader@9.2.1/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].oneOf[0].use[1]!/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/node_modules/css-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/src/index.js",
+          "name": "./src/index.js",
+          "nameForCondition": "/Users/cjy/Desktop/study/webpack_performance/src/index.js",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "dependent": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": true,
+          "errors": 1,
+          "warnings": 0,
+          "id": "./src/index.js",
+          "issuerId": null,
+          "chunks": [
+            "main"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "./src/index.js",
+              "loc": "main",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [],
+          "depth": 0
+        }
+      ],
+      "origins": [
+        {
+          "module": "",
+          "moduleIdentifier": "",
+          "moduleName": "",
+          "loc": "main",
+          "request": "./src/index.js"
+        }
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "type": "module",
+      "moduleType": "javascript/auto",
+      "layer": null,
+      "size": 39,
+      "sizes": {
+        "javascript": 39
+      },
+      "built": true,
+      "codeGenerated": true,
+      "buildTimeExecuted": false,
+      "cached": false,
+      "identifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[0].use[0]!/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/babel-loader@9.2.1/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].oneOf[0].use[1]!/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/node_modules/css-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/src/index.js",
+      "name": "./src/index.js",
+      "nameForCondition": "/Users/cjy/Desktop/study/webpack_performance/src/index.js",
+      "index": 0,
+      "preOrderIndex": 0,
+      "index2": 0,
+      "postOrderIndex": 0,
+      "cacheable": true,
+      "optional": false,
+      "orphan": false,
+      "issuer": null,
+      "issuerName": null,
+      "issuerPath": null,
+      "failed": true,
+      "errors": 1,
+      "warnings": 0,
+      "id": "./src/index.js",
+      "issuerId": null,
+      "chunks": [
+        "main"
+      ],
+      "assets": [],
+      "reasons": [
+        {
+          "moduleIdentifier": null,
+          "module": null,
+          "moduleName": null,
+          "resolvedModuleIdentifier": null,
+          "resolvedModule": null,
+          "type": "entry",
+          "active": true,
+          "explanation": "",
+          "userRequest": "./src/index.js",
+          "loc": "main",
+          "moduleId": null,
+          "resolvedModuleId": null
+        }
+      ],
+      "usedExports": null,
+      "providedExports": null,
+      "optimizationBailout": [],
+      "depth": 0
+    }
+  ],
+  "entrypoints": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 1197
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1197,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 528
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 528,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "main.js",
+          "size": 1197
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": 1197,
+      "auxiliaryAssets": [
+        {
+          "name": "main.js.map",
+          "size": 528
+        }
+      ],
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 528,
+      "children": {},
+      "childAssets": {},
+      "isOverSizeLimit": false
+    }
+  },
+  "errors": [
+    {
+      "moduleIdentifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/cjs.js??ruleSet[1].rules[0].oneOf[0].use[0]!/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/babel-loader@9.2.1/node_modules/babel-loader/lib/index.js??ruleSet[1].rules[0].oneOf[0].use[1]!/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/node_modules/css-loader/dist/cjs.js!/Users/cjy/Desktop/study/webpack_performance/src/index.js",
+      "moduleName": "./src/index.js",
+      "message": "Module build failed (from ./node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/cjs.js):\nThread Loader (Worker 0)\nloaderContext.utils.contextify is not a function\n\n    at stringifyRequest (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/utils.js:28:45)\n    at getImportStyleAPICode (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/utils.js:39:22)\n    at Object.pitch (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/index.js:124:42)",
+      "moduleId": "./src/index.js",
+      "moduleTrace": [],
+      "stack": "ModuleBuildError: Module build failed (from ./node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/cjs.js):\nThread Loader (Worker 0)\nloaderContext.utils.contextify is not a function\n\n    at stringifyRequest (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/utils.js:28:45)\n    at getImportStyleAPICode (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/utils.js:39:22)\n    at Object.pitch (/Users/cjy/Desktop/study/webpack_performance/node_modules/style-loader/dist/index.js:124:42)\n    at processResult (/Users/cjy/Desktop/study/webpack_performance/node_modules/webpack/lib/NormalModule.js:890:19)\n    at /Users/cjy/Desktop/study/webpack_performance/node_modules/webpack/lib/NormalModule.js:1036:5\n    at /Users/cjy/Desktop/study/webpack_performance/node_modules/loader-runner/lib/LoaderRunner.js:400:11\n    at /Users/cjy/Desktop/study/webpack_performance/node_modules/loader-runner/lib/LoaderRunner.js:195:20\n    at context.callback (/Users/cjy/Desktop/study/webpack_performance/node_modules/loader-runner/lib/LoaderRunner.js:124:13)\n    at Object.callback (/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/index.js:72:7)\n    at done (/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/neo-async@2.6.2/node_modules/neo-async/async.js:8069:18)\n    at callback (/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/WorkerPool.js:158:19)\n    at /Users/cjy/Desktop/study/webpack_performance/node_modules/.store/thread-loader@4.0.4/node_modules/thread-loader/dist/WorkerPool.js:184:15\n    at mapSeries (/Users/cjy/Desktop/study/webpack_performance/node_modules/.store/neo-async@2.6.2/node_modules/neo-async/async.js:3625:14)"
+    }
+  ],
+  "errorsCount": 1,
+  "warnings": [],
+  "warningsCount": 0,
+  "children": [
+    {
+      "name": "HtmlWebpackCompiler",
+      "hash": "addfc85244bbf0dbb56a",
+      "version": "5.96.1",
+      "time": 131,
+      "builtAt": 1732093656234,
+      "publicPath": "",
+      "outputPath": "/Users/cjy/Desktop/study/webpack_performance/dist",
+      "assetsByChunkName": {},
+      "assets": [],
+      "chunks": [
+        {
+          "rendered": true,
+          "initial": true,
+          "entry": true,
+          "recorded": false,
+          "size": 1403,
+          "sizes": {
+            "javascript": 466,
+            "runtime": 937
+          },
+          "names": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "idHints": [],
+          "runtime": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+          ],
+          "files": [],
+          "auxiliaryFiles": [],
+          "hash": "bc4f7d1f7b5044abbe15",
+          "childrenByOrder": {},
+          "id": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+          "siblings": [],
+          "parents": [],
+          "children": [],
+          "modules": [
+            {
+              "type": "module",
+              "moduleType": "javascript/auto",
+              "layer": null,
+              "size": 389,
+              "sizes": {
+                "javascript": 389
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "nameForCondition": "/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "index": 1,
+              "preOrderIndex": 1,
+              "index2": 1,
+              "postOrderIndex": 1,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+                  "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleIdentifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+                  "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "type": "cjs self exports reference",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": null,
+                  "loc": "1:102-116",
+                  "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+                  "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+                  "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                },
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": null,
+                  "active": true,
+                  "explanation": "used as library export",
+                  "userRequest": null,
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": null,
+              "optimizationBailout": [
+                "CommonJS bailout: module.exports is used directly at 1:102-116"
+              ],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "javascript/esm",
+              "layer": null,
+              "size": 77,
+              "sizes": {
+                "javascript": 77
+              },
+              "built": true,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "index": 0,
+              "preOrderIndex": 0,
+              "index2": 0,
+              "postOrderIndex": 0,
+              "cacheable": true,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "issuer": null,
+              "issuerName": null,
+              "issuerPath": null,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "issuerId": null,
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [
+                {
+                  "moduleIdentifier": null,
+                  "module": null,
+                  "moduleName": null,
+                  "resolvedModuleIdentifier": null,
+                  "resolvedModule": null,
+                  "type": "entry",
+                  "active": true,
+                  "explanation": "",
+                  "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+                  "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+                  "moduleId": null,
+                  "resolvedModuleId": null
+                }
+              ],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": 0
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 88,
+              "sizes": {
+                "runtime": 88
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/hasOwnProperty shorthand",
+              "name": "webpack/runtime/hasOwnProperty shorthand",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 274,
+              "sizes": {
+                "runtime": 274
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/make namespace object",
+              "name": "webpack/runtime/make namespace object",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 27,
+              "sizes": {
+                "runtime": 27
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/publicPath",
+              "name": "webpack/runtime/publicPath",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            },
+            {
+              "type": "module",
+              "moduleType": "runtime",
+              "layer": null,
+              "size": 548,
+              "sizes": {
+                "runtime": 548
+              },
+              "built": false,
+              "codeGenerated": true,
+              "buildTimeExecuted": false,
+              "cached": false,
+              "identifier": "webpack/runtime/require chunk loading",
+              "name": "webpack/runtime/require chunk loading",
+              "nameForCondition": null,
+              "index": null,
+              "preOrderIndex": null,
+              "index2": null,
+              "postOrderIndex": null,
+              "optional": false,
+              "orphan": false,
+              "dependent": false,
+              "failed": false,
+              "errors": 0,
+              "warnings": 0,
+              "id": "",
+              "chunks": [
+                "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+              ],
+              "assets": [],
+              "reasons": [],
+              "usedExports": null,
+              "providedExports": [],
+              "optimizationBailout": [],
+              "depth": null
+            }
+          ],
+          "origins": [
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "request": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+            },
+            {
+              "module": "",
+              "moduleIdentifier": "",
+              "moduleName": "",
+              "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "request": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;"
+            }
+          ]
+        }
+      ],
+      "modules": [
+        {
+          "type": "module",
+          "moduleType": "javascript/esm",
+          "layer": null,
+          "size": 77,
+          "sizes": {
+            "javascript": 77
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "javascript/esm|data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "name": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "nameForCondition": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "index": 0,
+          "preOrderIndex": 0,
+          "index2": 0,
+          "postOrderIndex": 0,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "data:text/javascript,__webpack_public_path__ = __webpack_base_uri__ = htmlWebpackPluginPublicPath;",
+              "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "javascript/auto",
+          "layer": null,
+          "size": 389,
+          "sizes": {
+            "javascript": 389
+          },
+          "built": true,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+          "name": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "nameForCondition": "/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+          "index": 1,
+          "preOrderIndex": 1,
+          "index2": 1,
+          "postOrderIndex": 1,
+          "cacheable": true,
+          "optional": false,
+          "orphan": false,
+          "issuer": null,
+          "issuerName": null,
+          "issuerPath": null,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+          "issuerId": null,
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [
+            {
+              "moduleIdentifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "module": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "moduleName": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleIdentifier": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "resolvedModule": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "type": "cjs self exports reference",
+              "active": true,
+              "explanation": "",
+              "userRequest": null,
+              "loc": "1:102-116",
+              "moduleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html",
+              "resolvedModuleId": "./node_modules/html-webpack-plugin/lib/loader.js!./src/index.html"
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": "entry",
+              "active": true,
+              "explanation": "",
+              "userRequest": "/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "loc": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+              "moduleId": null,
+              "resolvedModuleId": null
+            },
+            {
+              "moduleIdentifier": null,
+              "module": null,
+              "moduleName": null,
+              "resolvedModuleIdentifier": null,
+              "resolvedModule": null,
+              "type": null,
+              "active": true,
+              "explanation": "used as library export",
+              "userRequest": null,
+              "moduleId": null,
+              "resolvedModuleId": null
+            }
+          ],
+          "usedExports": null,
+          "providedExports": null,
+          "optimizationBailout": [
+            "CommonJS bailout: module.exports is used directly at 1:102-116"
+          ],
+          "depth": 0
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 88,
+          "sizes": {
+            "runtime": 88
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/hasOwnProperty shorthand",
+          "name": "webpack/runtime/hasOwnProperty shorthand",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 274,
+          "sizes": {
+            "runtime": 274
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/make namespace object",
+          "name": "webpack/runtime/make namespace object",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 27,
+          "sizes": {
+            "runtime": 27
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/publicPath",
+          "name": "webpack/runtime/publicPath",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        },
+        {
+          "type": "module",
+          "moduleType": "runtime",
+          "layer": null,
+          "size": 548,
+          "sizes": {
+            "runtime": 548
+          },
+          "built": false,
+          "codeGenerated": true,
+          "buildTimeExecuted": false,
+          "cached": false,
+          "identifier": "webpack/runtime/require chunk loading",
+          "name": "webpack/runtime/require chunk loading",
+          "nameForCondition": null,
+          "index": null,
+          "preOrderIndex": null,
+          "index2": null,
+          "postOrderIndex": null,
+          "optional": false,
+          "orphan": false,
+          "failed": false,
+          "errors": 0,
+          "warnings": 0,
+          "id": "",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "reasons": [],
+          "usedExports": null,
+          "providedExports": [],
+          "optimizationBailout": [],
+          "depth": null
+        }
+      ],
+      "entrypoints": {
+        "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html": {
+          "name": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "namedChunkGroups": {
+        "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html": {
+          "name": "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html",
+          "chunks": [
+            "HtmlWebpackPlugin_0-/Users/cjy/Desktop/study/webpack_performance/node_modules/html-webpack-plugin/lib/loader.js!/Users/cjy/Desktop/study/webpack_performance/src/index.html"
+          ],
+          "assets": [],
+          "filteredAssets": 0,
+          "assetsSize": 0,
+          "auxiliaryAssets": [],
+          "filteredAuxiliaryAssets": 0,
+          "auxiliaryAssetsSize": 0,
+          "children": {},
+          "childAssets": {},
+          "isOverSizeLimit": false
+        }
+      },
+      "errors": [],
+      "errorsCount": 0,
+      "warnings": [],
+      "warningsCount": 0,
+      "children": []
+    }
+  ]
+}
